@@ -11,5 +11,20 @@ body {
 
 a {
   color: #FD971F; }
+  a:hover {
+    color: #66D9EF; }
+
+h1 {
+  color: #A6E22E; }
+
+header {
+  border-bottom: 1px solid #777; }
+
+.nav-link {
+  padding: .75rem 1rem; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #007bff; }
 
 /*# sourceMappingURL=style.css.map */
