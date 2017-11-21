@@ -2,8 +2,9 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"style.scss"
+		"style.scss",
+		"colors.scss"
 	],
-	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAK;EACd,IAAI,EAAE,kDAAmD,GAC1D;;AAED,AAAA,CAAC,CAAC;EACA,KAAK,EAAE,OAAQ,GAChB",
+	"mappings": "AAEA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAK;EACd,IAAI,EAAE,kDAAmD;EACzD,gBAAgB,ECHX,OAAO;EDIZ,KAAK,ECLC,IAAI,GDMX;;AAED,AAAA,CAAC,CAAC;EACA,KAAK,ECHE,OAAO,GDIf",
 	"names": []
 }
