@@ -3,25 +3,39 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { 
-    currentPage: 'index',
-    title: 'Express' });
+  res.render('index', {
+    currentPage: 'Home',
+    homeActive: true,
+    title: 'Express'
+  });
 });
 
 router.get('/rules', (req, res) => {
-  res.render('rules', { currentPage: 'rules' });
+  res.render('rules', {
+    currentPage: 'Rules',
+    rulesActive: true
+  });
 });
 
 router.get('/john-conway', (req, res) => {
-  res.render('john-conway', { currentPage: 'john-conway' });
+  res.render('john-conway', {
+    currentPage: 'John Conway',
+    johnConwayActive: true
+  });
 });
 
 router.get('/snippet', (req, res) => {
-  res.render('snippet', { currentPage: 'snippet' });
+  res.render('snippet', {
+    currentPage: 'Snippet',
+    snippetActive: true
+  });
 });
 
 router.get('/resources', (req, res) => {
-  res.render('resources', { currentPage: 'resources' });
+  res.render('resources', {
+    currentPage: 'Resources',
+    resourcesActive: true
+  });
 });
 
 module.exports = router;

@@ -1,23 +1,11 @@
 <header class="header clearfix">
   <nav>
     <ul class="nav nav-pills float-right">
-      <li class="nav-item">
-        <a class="nav-link active" href="/">Home
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/rules">Rules</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/john-conway">John Conway</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/snippet">Snippet</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/resources">Resources</a>
-      </li>
+      {{> navItem name='Home' path='' active=homeActive }}
+      {{> navItem name='Rules' path='rules' active=rulesActive }}
+      {{> navItem name='John Conway' path='john-conway' active=johnConwayActive }}
+      {{> navItem name='Snippet' path='snippet' active=snippetActive }}
+      {{> navItem name='Resources' path='resources' active=resourcesActive }}
     </ul>
   </nav>
   <h1 class="text-muted">Code Retreat 2017</h1>
