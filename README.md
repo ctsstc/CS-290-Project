@@ -10,3 +10,12 @@
 - http://expressjs.com/en/api.html
 - https://getbootstrap.com/docs/4.0/getting-started/introduction/
 - https://css-tricks.com/equidistant-objects-with-css/
+
+### Requirements
+- [x] The webpages are presentable as a whole; the interface is user-friendly; the website contains pictures or videos.  --20 points
+- [x] Website has 1 homepage and at least 3 subpages; the homepage and subpages have a horizontal menu that leads to the other pages.   --10 points
+- [x] The homepage has picture carousel animation.   --10 points
+- [] Have a scroll box in one page.  --10 points
+- [] One page has unordered HTML list with several entries.  --10 points
+- [] There is a button to download files. --10 points
+- [x] There is a link that you can click and leads to outside webpages. --10 points

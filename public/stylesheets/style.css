@@ -54,4 +54,8 @@ header {
     .slider ul.controls li.active {
       background-color: #A6E22E; }
 
+.scroller {
+  height: 400px;
+  overflow-y: scroll; }
+
 /*# sourceMappingURL=style.css.map */
