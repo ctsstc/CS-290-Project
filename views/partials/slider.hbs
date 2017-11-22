@@ -1,0 +1,16 @@
+<div class="slider">
+  <div class="images">
+    {{#each sliderImages as |image|}}
+      <img data-index-number="{{@index}}" 
+        {{#if image.active}}class="active"{{/if}} 
+        src="{{image.src}}" 
+        alt="{{image.alt}}">
+    {{/each}}
+    </div>
+  <ul class="controls">
+    {{#each sliderImages as |image|}}
+      <li data-index-number="{{@index}}" 
+        title="{{image.alt}}"></li>
+    {{/each}}
+  </ul>
+</div>

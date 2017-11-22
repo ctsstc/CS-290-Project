@@ -30,3 +30,34 @@ header {
   color: #fff;
   background-color: $blueDarker;
 }
+
+.slider {
+  div.images {
+    height: 400px;
+    overflow: hidden;
+    img {
+      display: none;
+      width: 90%;
+      margin: auto;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  ul.controls {
+    width: 80%;
+    margin: auto;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    li {
+      width: 20px;
+      height: 20px;
+      background-color: $orange;
+      display: block;
+      border-radius: 50%;
+      float: left;
+      cursor: pointer;
+    }
+  }
+}

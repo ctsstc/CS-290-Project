@@ -4,9 +4,20 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', {
+    title: 'Pair Programming',
     currentPage: 'Home',
     homeActive: true,
-    title: 'Express'
+    sliderImages: [{
+      src: "/images/pair-programming-guy-and-gal.jpg",
+      alt: "Pair programming, guy and gal",
+      active: true
+    }, {
+      src: "/images/pair-programming-guy-and-guy.png",
+      alt: "Pair programming, guy and guy"
+    }, {
+      src: "/images/pair-programming-guy-and-cat.jpg",
+      alt: "Pair programming, guy and cat"
+    }]
   });
 });
 

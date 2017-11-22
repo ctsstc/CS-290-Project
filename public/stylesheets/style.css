@@ -27,4 +27,29 @@ header {
   color: #fff;
   background-color: #007bff; }
 
+.slider div.images {
+  height: 400px;
+  overflow: hidden; }
+  .slider div.images img {
+    display: none;
+    width: 90%;
+    margin: auto; }
+    .slider div.images img.active {
+      display: block; }
+
+.slider ul.controls {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; }
+  .slider ul.controls li {
+    width: 20px;
+    height: 20px;
+    background-color: #FD971F;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
