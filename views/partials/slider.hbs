@@ -10,7 +10,13 @@
   <ul class="controls">
     {{#each sliderImages as |image|}}
       <li data-index-number="{{@index}}" 
+        {{#if image.active}}class="active"{{/if}} 
         title="{{image.alt}}"></li>
     {{/each}}
   </ul>
+
+  <script type="module">
+    import Slider from "/javascripts/slider.js";
+    let mySlider = new Slider($('.slider').last());
+  </script>
 </div>

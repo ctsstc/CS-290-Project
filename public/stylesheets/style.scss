@@ -19,7 +19,7 @@ h1 {
 }
 
 header {
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid $greyLigther;
 }
 
 .nav-link {
@@ -33,7 +33,7 @@ header {
 
 .slider {
   div.images {
-    height: 400px;
+    height: 600px;
     overflow: hidden;
     img {
       display: none;
@@ -45,7 +45,7 @@ header {
     }
   }
   ul.controls {
-    width: 80%;
+    width: 50%;
     margin: auto;
     padding:20px;
     display: flex;
@@ -55,9 +55,12 @@ header {
       height: 20px;
       background-color: $orange;
       display: block;
-      border-radius: 50%;
-      float: left;
+      border-radius: 33%;
+      border: 1px solid $greyLigther;
       cursor: pointer;
+      &.active {
+        background-color: $green;
+      }
     }
   }
 }

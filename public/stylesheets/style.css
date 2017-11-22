@@ -28,7 +28,7 @@ header {
   background-color: #007bff; }
 
 .slider div.images {
-  height: 400px;
+  height: 600px;
   overflow: hidden; }
   .slider div.images img {
     display: none;
@@ -38,7 +38,7 @@ header {
       display: block; }
 
 .slider ul.controls {
-  width: 80%;
+  width: 50%;
   margin: auto;
   padding: 20px;
   display: flex;
@@ -48,8 +48,10 @@ header {
     height: 20px;
     background-color: #FD971F;
     display: block;
-    border-radius: 50%;
-    float: left;
+    border-radius: 33%;
+    border: 1px solid #777;
     cursor: pointer; }
+    .slider ul.controls li.active {
+      background-color: #A6E22E; }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,3 +9,4 @@
    - Handlebars helper so you can use logic in your templates!
 - http://expressjs.com/en/api.html
 - https://getbootstrap.com/docs/4.0/getting-started/introduction/
+- https://css-tricks.com/equidistant-objects-with-css/
