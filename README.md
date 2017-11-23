@@ -15,6 +15,10 @@
 - Great example of module usage https://github.com/paulirish/es-modules-todomvc/blob/master/docs/view.js
 - All the flavors of imports https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 - Require vs import http://researchhubs.com/post/computing/javascript/nodejs-require-vs-es6-import-export.html
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring
+- https://expressjs.com/en/guide/routing.html
+- https://stackoverflow.com/questions/7288814/download-a-file-from-nodejs-server-using-express
+- https://expressjs.com/en/4x/api.html#res.download
 
 ### Requirements
 - [x] The webpages are presentable as a whole; the interface is user-friendly; the website contains pictures or videos.  --20 points
@@ -22,7 +26,7 @@
 - [x] The homepage has picture carousel animation.   --10 points
 - [x] Have a scroll box in one page.  --10 points
 - [x] One page has unordered HTML list with several entries.  --10 points
-- [] There is a button to download files. --10 points
+- [x] There is a button to download files. --10 points
 - [x] There is a link that you can click and leads to outside webpages. --10 points
 
 ### Server Setup

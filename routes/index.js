@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const path = require('path');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -47,6 +48,12 @@ router.get('/resources', (req, res) => {
     currentPage: 'Resources',
     resourcesActive: true
   });
+});
+
+router.get('/download/:directory/:fileName', (req, res) => {
+  let {directory, fileName} = req.params;
+  let download = path.join(__dirname, '..', 'public', directory, fileName);
+  res.download(download, fileName);
 });
 
 module.exports = router;
