@@ -38,7 +38,7 @@ header {
       display: block; }
 
 .slider ul.controls {
-  width: 50%;
+  max-width: 200px;
   margin: auto;
   padding: 20px;
   display: flex;
@@ -56,6 +56,11 @@ header {
 
 .scroller {
   height: 400px;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  background-color: #555;
+  color: #A6E22E; }
+
+.rules img {
+  height: 512px; }
 
 /*# sourceMappingURL=style.css.map */

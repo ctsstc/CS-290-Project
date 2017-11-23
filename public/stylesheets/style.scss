@@ -45,7 +45,7 @@ header {
     }
   }
   ul.controls {
-    width: 50%;
+    max-width: 200px;
     margin: auto;
     padding:20px;
     display: flex;
@@ -68,4 +68,14 @@ header {
 .scroller {
   height: 400px;
   overflow-y: scroll;
+  background-color: $grey5;
+  color: $green;
+}
+
+.rules {
+  img {
+    //margin: auto;
+    //display: block;
+    height: 512px;
+  }
 }

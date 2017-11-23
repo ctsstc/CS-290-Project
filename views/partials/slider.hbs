@@ -1,4 +1,13 @@
 <div class="slider">
+
+  <ul class="controls">
+    {{#each sliderImages as |image|}}
+      <li data-index-number="{{@index}}" 
+        {{#if image.active}}class="active"{{/if}} 
+        title="{{image.alt}}"></li>
+    {{/each}}
+  </ul>
+
   <div class="images">
     {{#each sliderImages as |image|}}
       <img data-index-number="{{@index}}" 
@@ -7,13 +16,6 @@
         alt="{{image.alt}}">
     {{/each}}
     </div>
-  <ul class="controls">
-    {{#each sliderImages as |image|}}
-      <li data-index-number="{{@index}}" 
-        {{#if image.active}}class="active"{{/if}} 
-        title="{{image.alt}}"></li>
-    {{/each}}
-  </ul>
 
   <script type="module">
     import Slider from "/javascripts/slider.js";

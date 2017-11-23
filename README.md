@@ -30,7 +30,8 @@
 - Install make
 - `sudo apt-get install build-essential` this may have done the python and make `¯\_(ツ)_/¯`
 - All this for some damned sass `/le sigh`
-- Look into Dokku...
+- **Note to self**: Look into Dokku...
+- Install git LFS: https://github.com/git-lfs/git-lfs/wiki/Installation
 
 ### Dependencies
 - `npm install pm2 -g`
