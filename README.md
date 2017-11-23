@@ -10,21 +10,26 @@
 - http://expressjs.com/en/api.html
 - https://getbootstrap.com/docs/4.0/getting-started/introduction/
 - https://css-tricks.com/equidistant-objects-with-css/
+- https://v4-alpha.getbootstrap.com/layout/grid/#responsive-classes
+- https://github.com/remy/nodemon/issues/727
+- Great example of module usage https://github.com/paulirish/es-modules-todomvc/blob/master/docs/view.js
+- All the flavors of imports https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+- Require vs import http://researchhubs.com/post/computing/javascript/nodejs-require-vs-es6-import-export.html
 
 ### Requirements
 - [x] The webpages are presentable as a whole; the interface is user-friendly; the website contains pictures or videos.  --20 points
 - [x] Website has 1 homepage and at least 3 subpages; the homepage and subpages have a horizontal menu that leads to the other pages.   --10 points
 - [x] The homepage has picture carousel animation.   --10 points
-- [] Have a scroll box in one page.  --10 points
-- [] One page has unordered HTML list with several entries.  --10 points
+- [x] Have a scroll box in one page.  --10 points
+- [x] One page has unordered HTML list with several entries.  --10 points
 - [] There is a button to download files. --10 points
 - [x] There is a link that you can click and leads to outside webpages. --10 points
 
 ### Server Setup
 - Spinup Ubuntu
-- setup domain
+- Setup domain
 - ssh into the server
-- Install NVM
+- Install NVM https://github.com/creationix/nvm#install-script
 - Install node version via NVM
 - Install python3.6 and python2.7 via apt
 - Install make
@@ -32,6 +37,7 @@
 - All this for some damned sass `/le sigh`
 - **Note to self**: Look into Dokku...
 - Install git LFS: https://github.com/git-lfs/git-lfs/wiki/Installation
+   - `git lfs pull`
 
 ### Dependencies
 - `npm install pm2 -g`

@@ -66,16 +66,19 @@ header {
 }
 
 .scroller {
-  height: 400px;
+  height: 240px;
   overflow-y: scroll;
   background-color: $grey5;
   color: $green;
+  padding: 40px 20px;
 }
 
 .rules {
   img {
     //margin: auto;
     //display: block;
-    height: 512px;
+    width: 374px;
+    max-width: 100%;
   }
+
 }

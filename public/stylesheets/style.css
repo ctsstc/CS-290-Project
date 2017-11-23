@@ -55,12 +55,14 @@ header {
       background-color: #A6E22E; }
 
 .scroller {
-  height: 400px;
+  height: 240px;
   overflow-y: scroll;
   background-color: #555;
-  color: #A6E22E; }
+  color: #A6E22E;
+  padding: 40px 20px; }
 
 .rules img {
-  height: 512px; }
+  width: 374px;
+  max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
