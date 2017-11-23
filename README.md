@@ -19,3 +19,19 @@
 - [] One page has unordered HTML list with several entries.  --10 points
 - [] There is a button to download files. --10 points
 - [x] There is a link that you can click and leads to outside webpages. --10 points
+
+### Server Setup
+- Spinup Ubuntu
+- setup domain
+- ssh into the server
+- Install NVM
+- Install node version via NVM
+- Install python3.6 and python2.7 via apt
+- Install make
+- `sudo apt-get install build-essential` this may have done the python and make `¯\_(ツ)_/¯`
+- All this for some damned sass `/le sigh`
+- Look into Dokku...
+
+### Dependencies
+- `npm install pm2 -g`
+   - pm2 start pm2-launcher.json
